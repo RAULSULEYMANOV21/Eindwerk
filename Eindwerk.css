@@ -1,59 +1,94 @@
 *{
     padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 nav{
-    background: red ;
-    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+nav .navbar{
+    padding: 30px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navbar .nav-links a{
+    text-decoration: none;
+    color: #222;
+    margin-right: 30px;
+    font-weight: 500;
+    position: relative;
+}
+nav .navbar .nav-links a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: #222;
+    bottom: -10px;
+    left: 0;
+    transition: 0.4s;
+}
+nav .navbar .nav-links a:hover::after{
     width: 100%;
 }
-label.logo{
-    color: black;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+
+.container{
+    display: flex;
 }
-nav ul{
-    float: right;
-    margin-right: 20px;
+.container .div-text{
+    width: 50%;
+    height: 100vh;
+    position: relative;
 }
-nav ul li{
-    display: inline-block ;
-    line-height: 80px;
-    margin: 0 5px;
+.container .div-text .cont{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
 }
-nav ul li a{
-    color: white;
-    font-size: 17px;
-    padding: 7px 13px;
-    border-radius: 3px;
+.container .div-text .cont h1{
+    font-size: 70px;
     text-transform: uppercase;
+    font-weight: 1000;
+    margin-bottom: 20px;
 }
-a.active,a:hover{
-    background: black;
-    transition: .5s;
+.container .div-text .cont h1 span{
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
 }
-section{
-    background: url("stad.jpg") no-repeat ;
-    background-size: cover;
+.container .div-text .cont p{
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.container .div-text .soc-links a{
+    color: #555;
+    font-size: 22px;
+    margin-right: 15px;
+    position: relative;
+    top: 0;
+    transition: 0.4s;
+}
+.container .div-text .soc-links a:hover{
+    color: #000;
+    top: -10px;
+}
+.div-img{
+    width: 55%;
+    background: url(Flag_of_Azerbaijan.svg.png);
+    height: 100vh;
     background-position: center;
-    height: calc(100vh - 80px);
-    color: white;
-    text-align: center;
-    
-    
+    background-size: cover;
+    -webkit-clip-path :ellipse(70% 80% at 70% 50%);
+    clip-path: ellipse(70% 80% at 70% 50%);
 }
-.logo img
-{
-    width: 6%;
-    height: 4.5%;
-    position: fixed;
-    margin: 10px;
+#LogoAZ{
+    height: 100px;
+    background-color: black;
 }
