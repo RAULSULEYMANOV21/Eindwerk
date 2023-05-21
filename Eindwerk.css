@@ -1,3 +1,5 @@
+
+/* -Layout*/
 *{
     padding: 0;
     margin: 0;
@@ -92,3 +94,28 @@ nav .navbar .nav-links a:hover::after{
     height: 100px;
     background-color: black;
 }
+body.Leger {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h1.Leger {
+    color: #333;
+    text-align: center;
+  }
+  
+  p.Leger {
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  .container.Leger {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
