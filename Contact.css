@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 500;
+}
+nav .navbar{
+    padding: 30px 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navbar .nav-links a{
+    text-decoration: none;
+    color: #222;
+    margin-right: 30px;
+    font-weight: 500;
+    position: relative;
+}
+nav .navbar .nav-links a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0%;
+    background-color: #222;
+    bottom: -10px;
+    left: 0;
+    transition: 0.4s;
+}
+nav .navbar .nav-links a:hover::after{
+    width: 100%;
+}
+#LogoAZ{
+    height: 100px;
+    background-color: black;
+}  
+
+  .container.Leger {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+ 
