@@ -42,12 +42,21 @@ nav .navbar .nav-links a:hover::after{
     background-color: black;
 }  
 
-  .container.Leger {
+.container.Leger {
     max-width: 800px;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+}
  
+#footer {
+    background: #1b1723;
+    color: #bfbfbf;
+    letter-spacing: .0625em;
+    padding: 83px 0 77px;
+    text-align: center;
+    padding: 43px 0 75px;
+    display: block;
+}
