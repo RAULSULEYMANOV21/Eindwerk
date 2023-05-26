@@ -8,6 +8,8 @@ nav{
     width: 100%;
     position: fixed;
     z-index: 500;
+    text-transform: uppercase;
+    background-color: white;
 }
 nav .navbar{
     padding: 30px 0;
@@ -59,4 +61,9 @@ nav .navbar .nav-links a:hover::after{
     text-align: center;
     padding: 43px 0 75px;
     display: block;
+}
+div#invoer{
+    padding-top: 300px;
+    padding-left: 650px;
+
 }

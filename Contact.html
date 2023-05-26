@@ -24,7 +24,22 @@
             </div>
         </nav> 
     </header>
+    <div id="invoer">
+    <form onsubmit="return displayMessage();">
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" id="voornaam" name="voornaam" required><br><br>
 
+        <label for="naam">Naam:</label>
+        <input type="text" id="naam" name="naam" required><br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <br><br>
+        <label for="vraag">Vraag:</label><br>
+        <textarea id="vraag" name="vraag" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Verzenden">
+    </div>
    
 </body>
 </html>

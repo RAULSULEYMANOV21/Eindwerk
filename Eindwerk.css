@@ -152,6 +152,11 @@ img#foto1{
 }
 img#foto2{
     width: 500px;
+    margin-top: 100px;
+}
+img#foto3{
+    width: 500px;
+    margin-top: 100px;
 }
 section#kolom1{
 width: 50%;
@@ -173,9 +178,16 @@ div#positie{
     padding-top: 1.5cm;
 }
 div#positie2{
-    padding-top: 1.5cm;
+    padding-top: 180px;
     padding-bottom: 5cm;
     border-bottom: 5cm;
+
+}
+div#positie3{
+    padding-top: 180px;
+    padding-bottom: 5cm;
+    border-bottom: 5cm;
+
 }
 #footer {
 
@@ -186,4 +198,6 @@ div#positie2{
     text-align: center;
     padding: 43px 0 75px;
     display: block;
+    margin-top: 700px;
+    font-weight: bold;
 }
