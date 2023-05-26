@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* Navigatie bar */
 nav{
     width: 100%;
     position: fixed;
+    background-color: white;
     z-index: 500;
 }
 nav .navbar{
@@ -25,6 +27,7 @@ nav .navbar .nav-links a{
     margin-right: 30px;
     font-weight: 500;
     position: relative;
+    text-transform: uppercase;
 }
 nav .navbar .nav-links a::after{
     content: '';
@@ -119,3 +122,68 @@ body.Leger {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
+  /* Bezienswaardigheden */
+body#body-bezienswaardigheden{
+    background-color:  bisque;
+}
+  div#blok{
+    padding-top: 5cm;
+
+
+}
+div#titel{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase ;
+    background-color: black;
+    color:white;
+    padding-top: 2cm;   
+    padding-bottom: 1cm;
+}
+div#Bezienswaardigheden{
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    height: 20cm;
+    display: flex;
+}
+img#foto1{
+    width: 500px;
+}
+img#foto2{
+    width: 500px;
+}
+section#kolom1{
+width: 50%;
+}
+section#kolom2{
+    width: 50%;
+}
+p#begin-text{
+    line-height: 30px;
+
+}
+h3#text-titel{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+}
+div#positie{
+    padding-top: 1.5cm;
+}
+div#positie2{
+    padding-top: 1.5cm;
+    padding-bottom: 5cm;
+    border-bottom: 5cm;
+}
+#footer {
+
+    background: black;
+    color: white;
+    letter-spacing: .0625em;
+    padding: 83px 0 77px;
+    text-align: center;
+    padding: 43px 0 75px;
+    display: block;
+}
