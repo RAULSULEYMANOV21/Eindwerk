@@ -53,17 +53,37 @@ nav .navbar .nav-links a:hover::after{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
  
-#footer {
-    background: #1b1723;
-    color: #bfbfbf;
-    letter-spacing: .0625em;
-    padding: 83px 0 77px;
-    text-align: center;
-    padding: 43px 0 75px;
-    display: block;
-}
 div#invoer{
     padding-top: 300px;
     padding-left: 650px;
 
+}
+/*Footer contact*/
+#footer {
+
+    background: black;
+    color: white;
+    letter-spacing: .0625em;
+    padding: 83px 0 77px;
+    text-align: center;
+    display: flex;
+    margin-top: 1200px;
+    font-weight: bold;    
+    
+}
+section#links{
+    padding-left: 25%;
+    text-align: left;
+    border-left: 2px solid white ; 
+    
+}
+section#contacteer-ons{
+    padding-left: 15%;
+    border-left: 2px solid white; 
+}
+section#copyright{
+    border-bottom: 0px;
+}
+h3#contact{
+    text-transform: uppercase;
 }

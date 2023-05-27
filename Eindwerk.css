@@ -42,7 +42,7 @@ nav .navbar .nav-links a::after{
 nav .navbar .nav-links a:hover::after{
     width: 100%;
 }
-
+/*Container*/
 .container{
     display: flex;
 }
@@ -84,6 +84,7 @@ nav .navbar .nav-links a:hover::after{
     color: #000;
     top: -10px;
 }
+/*Image*/
 .div-img{
     width: 55%;
     background: url(Flag_of_Azerbaijan.svg.png);
@@ -93,44 +94,21 @@ nav .navbar .nav-links a:hover::after{
     -webkit-clip-path :ellipse(70% 80% at 70% 50%);
     clip-path: ellipse(70% 80% at 70% 50%);
 }
+/*Logo*/
 #LogoAZ{
     height: 100px;
     background-color: black;
 }
-body.Leger {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f2f2f2;
-  }
-  
-  h1.Leger {
-    color: #333;
-    text-align: center;
-  }
-  
-  p.Leger {
-    color: #666;
-    line-height: 1.4;
-  }
-  
-  .container.Leger {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  /* Bezienswaardigheden */
+/* Bezienswaardigheden */
 body#body-bezienswaardigheden{
     background-color:  bisque;
 }
-  div#blok{
-    padding-top: 5cm;
+div#blok{
+    padding-top: 3.5cm;
 
 
 }
+/*Titel*/
 div#titel{
     text-align: center;
     font-size: 30px;
@@ -147,19 +125,26 @@ div#Bezienswaardigheden{
     height: 20cm;
     display: flex;
 }
+/*Foto's*/
 img#foto1{
     width: 500px;
 }
 img#foto2{
+    
     width: 500px;
     margin-top: 100px;
+    
 }
 img#foto3{
     width: 500px;
     margin-top: 100px;
 }
+img#foto4{
+    width: 500px;
+    margin-top: 100px;
+}
 section#kolom1{
-width: 50%;
+    width: 50%;
 }
 section#kolom2{
     width: 50%;
@@ -189,6 +174,12 @@ div#positie3{
     border-bottom: 5cm;
 
 }
+div#positie4{
+    padding-top: 180px;
+    padding-bottom: 5cm;
+    border-bottom: 5cm;
+}
+/*Footer bezienswaardigheden*/
 #footer {
 
     background: black;
@@ -196,8 +187,86 @@ div#positie3{
     letter-spacing: .0625em;
     padding: 83px 0 77px;
     text-align: center;
-    padding: 43px 0 75px;
-    display: block;
-    margin-top: 700px;
-    font-weight: bold;
+    display: flex;
+    margin-top: 1150px;
+    font-weight: bold;    
+    text-decoration: none;
+    margin-bottom: 0%;
+    
 }
+section#links{
+    padding-left: 25%;
+    text-align: left;
+    border-left: 2px solid white ; 
+    
+}
+section#contacteer-ons{
+    padding-left: 15%;
+    border-left: 2px solid white; 
+}
+div#copyright{
+    padding-top: 60px;
+}
+h3#contact{
+    text-transform: uppercase;
+}
+/*Leger*/
+body.Leger {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1.Leger {
+    color: #333;
+    text-align: center;
+  }
+  
+  p.Leger {
+    color: #666;
+    line-height: 1.4;
+  }
+  
+  .container.Leger {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  p#begin-text-leger{
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  div#leger{
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    height: 20cm;
+    display: flex;
+  }
+  img#soldaten{
+    width: 500px;
+    padding-top: 1.3cm;
+    margin-left: 150px;
+    
+  }
+  img#luchtmacht{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  img#voertuigmacht{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+  img#marine{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+  }
+ body#body-leger{
+    background-color: bisque;
+ }
