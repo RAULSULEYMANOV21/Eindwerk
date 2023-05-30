@@ -125,6 +125,15 @@ div#Bezienswaardigheden{
     height: 20cm;
     display: flex;
 }
+/*Lijn*/
+hr#lijn-bezienswaardigheden{
+    width: 1350px;
+    background-color: black;
+    height: 4px;
+    text-decoration: solid;
+    margin-top: 20px;
+
+}
 /*Foto's*/
 img#foto1{
     width: 500px;
@@ -175,7 +184,7 @@ div#positie3{
 
 }
 div#positie4{
-    padding-top: 180px;
+    padding-top: 230px;
     padding-bottom: 5cm;
     border-bottom: 5cm;
 }
@@ -192,17 +201,20 @@ div#positie4{
     font-weight: bold;    
     text-decoration: none;
     margin-bottom: 0%;
+    justify-content: space-between;
+    align-items: center;
     
 }
 section#links{
-    padding-left: 25%;
+    padding-left: 20%;
     text-align: left;
     border-left: 2px solid white ; 
     
 }
 section#contacteer-ons{
-    padding-left: 15%;
+    padding-left: 10%;
     border-left: 2px solid white; 
+    padding-right: 20px;
 }
 div#copyright{
     padding-top: 60px;
@@ -250,7 +262,6 @@ body.Leger {
     width: 500px;
     padding-top: 1.3cm;
     margin-left: 150px;
-    
   }
   img#luchtmacht{
     width: 500px;
@@ -282,7 +293,7 @@ body.Leger {
     display: flex;
 }
  /*Video*/
- iframe#dolma,#pelmeni,#baklava{
+ iframe#dolma,#pelmeni,#baklava,#gutab{
     width: 500px;
     height: 311px;
  }
@@ -297,10 +308,16 @@ body.Leger {
     margin-top: 100px;
     height: 311px;
  }
- hr{
+ img#gutabs{
+    width: 500px;
+    margin-top: 100px;
+    height: 311px;
+ }
+ /*Lijn*/
+ hr#lijn-eten{
     width: 1350px;
     background-color: black;
-    height: 3px;
+    height: 4px;
     text-decoration: solid;
     margin-top: 85px;
  }
@@ -314,6 +331,11 @@ div#positie-eten2{
 div#positie-eten3{
     padding-top: 250px;
 }
+div#positie-eten4{
+    padding-top: 250px;
+    
+}
+/*Footer eten*/
 #footer-eten {
 
     background: black;
@@ -322,9 +344,11 @@ div#positie-eten3{
     padding: 83px 0 77px;
     text-align: center;
     display: flex;
-    margin-top: 1850px;
+    margin-top: 2550px;
     font-weight: bold;    
     text-decoration: none;
     margin-bottom: 0%;
+    justify-content: space-between;
+    align-items: center;
     
 }
