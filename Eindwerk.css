@@ -270,3 +270,61 @@ body.Leger {
  body#body-leger{
     background-color: bisque;
  }
+ /*Eten*/
+ body#body-eten{
+    background-color: bisque;
+ }
+ div#eten{
+    padding-top: 2cm;
+    padding-left: 2cm;
+    padding-right: 2cm;
+    height: 20cm;
+    display: flex;
+}
+ /*Video*/
+ iframe#dolma,#pelmeni,#baklava{
+    width: 500px;
+    height: 311px;
+ }
+ /*Foto's*/
+ img#pelmeni{
+    width: 500px;
+    margin-top: 100px;
+    height: 311px;
+ }
+ img#baklava{
+    width: 500px;
+    margin-top: 100px;
+    height: 311px;
+ }
+ hr{
+    width: 1350px;
+    background-color: black;
+    height: 3px;
+    text-decoration: solid;
+    margin-top: 85px;
+ }
+p#begin-text-eten{
+    line-height: 30px;
+    
+}
+div#positie-eten2{
+    padding-top: 200px;
+}
+div#positie-eten3{
+    padding-top: 250px;
+}
+#footer-eten {
+
+    background: black;
+    color: white;
+    letter-spacing: .0625em;
+    padding: 83px 0 77px;
+    text-align: center;
+    display: flex;
+    margin-top: 1850px;
+    font-weight: bold;    
+    text-decoration: none;
+    margin-bottom: 0%;
+    
+}
