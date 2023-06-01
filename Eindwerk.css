@@ -105,8 +105,6 @@ body#body-bezienswaardigheden{
 }
 div#blok{
     padding-top: 3.5cm;
-
-
 }
 /*Titel*/
 div#titel{
@@ -137,27 +135,32 @@ hr#lijn-bezienswaardigheden{
 /*Foto's*/
 img#foto1{
     width: 500px;
+    border-radius: 20px;
 }
 img#foto2{
     
     width: 500px;
     margin-top: 100px;
-    
+    border-radius: 20px;
 }
 img#foto3{
     width: 500px;
     margin-top: 100px;
+    border-radius: 20px;
 }
 img#foto4{
     width: 500px;
     margin-top: 100px;
+    border-radius: 20px;
 }
+/*Sections*/
 section#kolom1{
     width: 50%;
 }
 section#kolom2{
     width: 50%;
 }
+/*Tekst*/
 p#begin-text{
     line-height: 30px;
 
@@ -197,12 +200,18 @@ div#positie4{
     padding: 83px 0 77px;
     text-align: center;
     display: flex;
-    margin-top: 1200px;
+    margin-top: 1250px;
     font-weight: bold;    
     text-decoration: none;
     margin-bottom: 0%;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
+    
+}
+/*Loog in de footer beter maken*/
+section#logo{
+    padding-left: 60px;
     
 }
 section#links{
@@ -258,26 +267,32 @@ body.Leger {
     height: 20cm;
     display: flex;
   }
+  /*Foto's*/
   img#soldaten{
     width: 500px;
     padding-top: 1.3cm;
     margin-left: 150px;
+    border-radius: 20px;
   }
   img#luchtmacht{
     width: 500px;
     margin-top: 100px;
     margin-left: 150px;
+    border-radius: 20px;
   }
   img#voertuigmacht{
     width: 500px;
     margin-top: 100px;
     margin-left: 150px;
+    border-radius: 20px;
   }
   img#marine{
     width: 500px;
     margin-top: 100px;
     margin-left: 150px;
+    border-radius: 20px;
   }
+  /*body*/
  body#body-leger{
     background-color: bisque;
  }
@@ -302,16 +317,19 @@ body.Leger {
     width: 500px;
     margin-top: 100px;
     height: 311px;
+    border-radius: 20px;
  }
  img#baklava{
     width: 500px;
     margin-top: 100px;
     height: 311px;
+    border-radius: 20px;
  }
  img#gutabs{
     width: 500px;
     margin-top: 100px;
     height: 311px;
+    border-radius: 20px;
  }
  /*Lijn*/
  hr#lijn-eten{
@@ -323,8 +341,8 @@ body.Leger {
  }
 p#begin-text-eten{
     line-height: 30px;
-    
 }
+/*Posities*/
 div#positie-eten2{
     padding-top: 200px;
 }
@@ -336,6 +354,9 @@ div#positie-eten4{
     
 }
 /*Footer eten*/
+section#logo{
+    padding-left: 60px;
+}
 #footer-eten {
 
     background: black;
@@ -350,5 +371,6 @@ div#positie-eten4{
     margin-bottom: 0%;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 10px;
     
 }

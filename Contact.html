@@ -9,6 +9,7 @@
         <link rel="shortcut icon" href="LogoAz.png" type="image/x-icon">
     </head>
 <body>
+    <!--Links-->
     <header>   
         <nav>
                 <div class="navbar">      
@@ -24,27 +25,57 @@
             </div>
         </nav> 
     </header>
+    <!--Titel-->
+    <div id="blok">
+        <div id="titel">
+            <h1 id="Grote-titel">Contact</h1><br>
+
+        </div>
+    </div>
+    <!--Klein Titel-->
+    <div id="Kleine-titel">
+        <h3 id="Vraagje">Stel gerust een vraag.</h3><br>
+
+    </div>
     <div id="invoer">
+        <!--JavaScript-->
+        <script>
+            function displayMessage() {
+    var voornaam = document.getElementById("voornaam").value;
+    var naam = document.getElementById("naam").value;
+    var email = document.getElementById("email").value;
+    var vraag = document.getElementById("vraag").value;
+    var message = "Bedankt voor je bericht, " + voornaam + " " + naam + "!" +
+                  "\nWe zullen zo snel mogelijk reageren op het volgende e-mailadres: " + email +
+                  "\n\nJe vraag:\n" + vraag;
+    alert(message);
+
+   
+    return false;
+}
+        </script>
+        <!--Labels en tekstvelden toevoegen-->
+        <img id="stad" src="stad.jpg">
     <form onsubmit="return displayMessage();">
-        <label for="voornaam">Voornaam:</label>
+        <label  for="voornaam">Voornaam:</label><br>
         <input type="text" id="voornaam" name="voornaam" required><br><br>
 
-        <label for="naam">Naam:</label>
+        <label for="naam">Naam:</label><br>
         <input type="text" id="naam" name="naam" required><br><br>
 
-        <label for="email">E-mail:</label>
+        <label for="email">E-mail:</label><br>
         <input type="email" id="email" name="email" required><br><br>
         <br><br>
         <label for="vraag">Vraag:</label><br>
         <textarea id="vraag" name="vraag" rows="4" cols="50" required></textarea><br><br>
 
-        <input type="submit" value="Verzenden">
+        <input id="button" type="submit" value="Verzenden">
     </div>
 
     <!--Footer-->
     <footer id="footer">
         <section id="logo">
-             <img src="LogoAz-removebg-preview.png" alt="Azerbaijan Travel" id="LogoAZ" width="150" height="150" > </a>
+             <img src="LogoAz-removebg-preview.png" alt="Azerbaijan Travel" id="LogoAZ" width="150" height="150">
         </section>
 
         <section id="links">
@@ -64,11 +95,10 @@
             <p>raulsuleymanov255@gmail.com</p><br>
             <p>+32 467 685 017</p><br>
 
-        </section>
-        <section id="copyright">
+        <div id="copyright">
         <a href="file:///C:/Users/Elcin/Desktop/Raul%20Informatica/Webdesign/Eindwerk%20GitHub/Eindwerk-Raul/Eindwerk.html">
         <p class="copy"><a href="file:///C:/Users/Elcin/Desktop/Raul%20Informatica/Webdesign/Eindwerk%20GitHub/Eindwerk-Raul/Eindwerk.html">AzerbaijanTravel</a> © All rights reserved 2023</p>
-        </section>
+        </div>  
         
      
      
