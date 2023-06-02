@@ -8,6 +8,7 @@
 }
 body{
     background-color: bisque;
+    background-image: url(berg.jpg);
 }
 nav{
     width: 100%;
@@ -70,7 +71,8 @@ div#invoer{
     margin-bottom: 0%;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 1cm;
     
     
 }
@@ -92,7 +94,7 @@ section#contacteer-ons{
 div#copyright{
     padding-top: 60px;
 }
-h3#contact{
+h2#contact{
     text-transform: uppercase;
 }
 div#blok{
@@ -120,13 +122,13 @@ div#Kleine-titel{
 /*Labels*/
 label{
     text-transform: uppercase;
+    color: white;
 
 }
 /*TextBox*/
 input{
     height: 30px;
-    width: 280px;
-    
+    width: 280px;    
 }
 /*Button*/
 input#button{
@@ -135,8 +137,5 @@ input#button{
     border-radius: 20px;   
 }
 /*Foto*/
-img#stad{
-    width: 250px;
-    float: left;
-    height: 200px;
-}
+
+    
