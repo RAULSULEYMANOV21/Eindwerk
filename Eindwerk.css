@@ -130,7 +130,6 @@ hr#lijn-bezienswaardigheden{
     height: 4px;
     text-decoration: solid;
     margin-top: 20px;
-
 }
 /*Foto's*/
 img#foto1{
@@ -138,7 +137,6 @@ img#foto1{
     border-radius: 20px;
 }
 img#foto2{
-    
     width: 500px;
     margin-top: 100px;
     border-radius: 20px;
@@ -163,13 +161,11 @@ section#kolom2{
 /*Tekst*/
 p#begin-text{
     line-height: 30px;
-
 }
 h3#text-titel{
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 20px;
-
 }
 div#positie{
     padding-top: 1.5cm;
@@ -178,13 +174,11 @@ div#positie2{
     padding-top: 180px;
     padding-bottom: 5cm;
     border-bottom: 5cm;
-
 }
 div#positie3{
     padding-top: 180px;
     padding-bottom: 5cm;
     border-bottom: 5cm;
-
 }
 div#positie4{
     padding-top: 230px;
@@ -193,7 +187,6 @@ div#positie4{
 }
 /*Footer bezienswaardigheden*/
 #footer {
-
     background: black;
     color: white;
     letter-spacing: .0625em;
@@ -207,18 +200,15 @@ div#positie4{
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-    
 }
 /*Loog in de footer beter maken*/
 section#logo{
     padding-left: 60px;
-    
 }
 section#links{
     padding-left: 20%;
     text-align: left;
     border-left: 2px solid white ; 
-    
 }
 section#contacteer-ons{
     padding-left: 10%;
@@ -236,18 +226,15 @@ body.Leger {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-  }
-  
+}  
   h1.Leger {
     color: #333;
     text-align: center;
-  }
-  
+}  
   p.Leger {
     color: #666;
     line-height: 1.4;
-  }
-  
+}  
   .container.Leger {
     max-width: 800px;
     margin: 0 auto;
@@ -255,51 +242,51 @@ body.Leger {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+}
   p#begin-text-leger{
     line-height: 30px;
     padding-left: 20px;
-  }
+}
   div#leger{
     padding-top: 2cm;
     padding-left: 2cm;
     padding-right: 2cm;
     height: 20cm;
     display: flex;
-  }
+}
   /*Foto's*/
   img#soldaten{
     width: 500px;
     padding-top: 1.3cm;
     margin-left: 150px;
     border-radius: 20px;
-  }
+}
   img#luchtmacht{
     width: 500px;
     margin-top: 100px;
     margin-left: 150px;
     border-radius: 20px;
-  }
+}
   img#voertuigmacht{
     width: 500px;
     margin-top: 100px;
     margin-left: 150px;
     border-radius: 20px;
-  }
+}
   img#marine{
     width: 500px;
     margin-top: 100px;
     margin-left: 150px;
     border-radius: 20px;
-  }
+}
   /*body*/
  body#body-leger{
     background-color: bisque;
- }
+}
  /*Eten*/
  body#body-eten{
     background-color: bisque;
- }
+}
  div#eten{
     padding-top: 2cm;
     padding-left: 2cm;
@@ -311,26 +298,26 @@ body.Leger {
  iframe#dolma,#pelmeni,#baklava,#gutab{
     width: 500px;
     height: 311px;
- }
+}
  /*Foto's*/
  img#pelmeni{
     width: 500px;
     margin-top: 100px;
     height: 311px;
     border-radius: 20px;
- }
+}
  img#baklava{
     width: 500px;
     margin-top: 100px;
     height: 311px;
     border-radius: 20px;
- }
+}
  img#gutabs{
     width: 500px;
     margin-top: 100px;
     height: 311px;
     border-radius: 20px;
- }
+}
  /*Lijn*/
  hr#lijn-eten{
     width: 1350px;
@@ -338,7 +325,7 @@ body.Leger {
     height: 4px;
     text-decoration: solid;
     margin-top: 85px;
- }
+}
 p#begin-text-eten{
     line-height: 30px;
 }
@@ -358,19 +345,91 @@ section#logo{
     padding-left: 60px;
 }
 #footer-eten {
-
     background: black;
     color: white;
     letter-spacing: .0625em;
     padding: 83px 0 77px;
     text-align: center;
     display: flex;
-    margin-top: 2550px;
+    margin-top: 2750px;
     font-weight: bold;    
     text-decoration: none;
     margin-bottom: 0%;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 10px;
-    
+}
+
+/*Geschiedenis*/
+body#body-geschiedenis{
+    background-color: bisque;    
+}
+/*Horizontale Lijn*/
+hr#lijn-geschiedenis{
+    width: 1350px;
+    background-color: black;
+    height: 4px;
+    text-decoration: solid;
+    margin-top: 130px;   
+}
+/*Positie*/
+div#positie2-geschiedenis{
+    padding-top: 100px;
+    padding-bottom: 5cm;
+    border-bottom: 5cm;
+}
+div#positie3-geschiedenis{
+    padding-top: 120px;
+    padding-bottom: 5cm;
+    border-bottom: 5cm;
+}
+div#positie4-geschiedenis{
+    padding-top: 100px;
+    padding-bottom: 5cm;
+    border-bottom: 5cm;
+}
+/*Foto's*/
+img#Azerbeidzjan{
+    width: 360px;
+    height: 400px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+img#qarabag{
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+img#soviet-unie{
+    width: 500px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+img#olie{
+    width: 500px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+/*Footer-Geschiedenis*/
+#footer-geschiedenis {
+    background: black;
+    color: white;
+    letter-spacing: .0625em;
+    padding: 83px 0 77px;
+    text-align: center;
+    display: flex;
+    margin-top: 1267px;
+    font-weight: bold;    
+    text-decoration: none;
+    margin-bottom: 0%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
 }
